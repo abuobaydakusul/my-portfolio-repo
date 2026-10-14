@@ -41,7 +41,7 @@ header{
     background-color: #FFF8F3;
     padding-top: 51px;
     background-repeat: no-repeat;
-    background-position:top left, right bottom;
+    background-position:top 54px left 20px, right bottom;
 }
 nav{
     width: 71%;
@@ -90,4 +90,104 @@ nav{
 .banner-image img{
     max-width: 584px;
     vertical-align: middle;
+}
+#about{
+    padding-top: 130px;
+}
+#about .about-content{
+    /* border: 1px solid red; */
+    max-width: 1140px;
+    width: 71%;
+    margin: 0 auto;
+    padding: 131px 156px;
+    /* justify-content:center; */
+    text-align: center;
+    
+    background-color: #FFF8F3;
+}
+.skill-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+#about .about-heading h3{
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#about .about-heading p{
+    font-size: 18px;
+    color:#757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+} 
+#about .about-info {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    /* margin-bottom: 51px; */
+    /* max-width: 827px; */
+    /* width: 71%; */
+}
+#about .about-info .info-card p{
+    font-weight: 20px;
+    color: #757575;
+    line-height: 30px;
+    /* max-width: 827px;
+    width: 71%; */
+}
+#about .about-info .info-card h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+#skills{
+    padding-top: 130px;
+}
+#skill .skill-container{
+    width: 71%-;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skill .skill-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+#skill .skill-heading p{
+    font-size: 18px;
+    color: #757575;
+   white-space: pre-line;
+   text-align: center;
+}
+.skill-box {
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+}
+.skill-box .skill-card{
+    /* border: 1px solid red; */
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 #0000002c;
+    max-width: 267px;
+}
+.skill-card img{
+    max-width: 44px;
+    margin-bottom: 30px;
+
+}
+.skill-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #181818;
+}
+.skill-card p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 30px;
 }
